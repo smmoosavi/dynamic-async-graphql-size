@@ -15,6 +15,13 @@ The objective of this example is to minimize the size of the generated binary fi
 | 100 query + 100 object (macro)              |         2,673,040 |          1,747,344 | [dfef603]             |
 | 100 query + 100 object (dynamic definition) |                 - |          1,304,976 | [b16b9d6]             |
 
+## Performance
+
+the performance affect is not significant when dynamic-schema is used.
+
+|                                             | Static Schema (dur/100 k req) | Dynamic Schema (dur/100 k req) |
+|---------------------------------------------|------------------------------:|-------------------------------:|
+| 100 query + 100 object (dynamic definition) |                        1.190s |                         1.250s |
 
 [e4aa02e]: https://github.com/smmoosavi/dynamic-async-graphql-try/commit/e4aa02e80fe72471d07d081f8be4dd25fdaa49f8
 [304b7b2]: https://github.com/smmoosavi/dynamic-async-graphql-try/commit/304b7b2e314dbcb2ab739d885862c42c3aafc2f5
