@@ -1,0 +1,16 @@
+
+
+
+
+type Query {
+	"""
+	Returns the sum of a and b
+	"""
+	add(a: Int!, b: Int!): Int!
+}
+
+
+schema {
+	query: Query
+}
+
