@@ -1,0 +1,12 @@
+[workspace]
+
+members = [
+    "dynamic-graphql",
+    "static-graphql",
+]
+
+[profile.release]
+lto = true
+codegen-units = 1
+opt-level = "z"  # Optimize for size.
+strip = true
