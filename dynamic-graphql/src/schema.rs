@@ -1,35 +1,38 @@
 use async_graphql::{dynamic::*, Value};
 
+struct Box {
+    value: i32,
+}
+
+fn define_add_field(name: &str, obj_name: &str, schema: SchemaBuilder) -> (Field, SchemaBuilder) {
+    let value_field = Field::new("value", TypeRef::named_nn(TypeRef::INT), |ctx| {
+        FieldFuture::new(async move {
+            let obj = ctx.parent_value.downcast_ref::<Box>().unwrap();
+            Ok(Some(Value::from(obj.value)))
+        })
+    });
+
+    let obj_type = Object::new(obj_name).field(value_field);
+    let obj_type_name = obj_type.type_name().to_string();
+    let schema = schema.register(obj_type);
+    let add_field = Field::new(name, TypeRef::named_nn(obj_type_name), |ctx| {
+        FieldFuture::new(async move {
+            let a = ctx.args.try_get("a")?.i64()?;
+            let b = ctx.args.try_get("b")?.i64()?;
+            Ok(Some(FieldValue::owned_any(Box {
+                value: (a + b) as i32,
+            })))
+        })
+    })
+    .argument(InputValue::new("a", TypeRef::named_nn(TypeRef::INT)))
+    .argument(InputValue::new("b", TypeRef::named_nn(TypeRef::INT)))
+    .description("Returns the sum of a and b");
+    (add_field, schema)
+}
+
 macro_rules! define_add_field {
     ($name:expr, $obj_name:expr, $struct_name:ident, $schema:ident) => {{
-        struct $struct_name {
-            value: i32,
-        }
-
-        let value_field = Field::new("value", TypeRef::named_nn(TypeRef::INT), |ctx| {
-            FieldFuture::new(async move {
-                let obj = ctx.parent_value.downcast_ref::<$struct_name>().unwrap();
-                Ok(Some(Value::from(obj.value)))
-            })
-        });
-
-        let obj_type = Object::new($obj_name).field(value_field);
-        let obj_type_name = obj_type.type_name().to_string();
-        let schema = $schema.register(obj_type);
-
-        let add_field = Field::new($name, TypeRef::named_nn(obj_type_name), |ctx| {
-            FieldFuture::new(async move {
-                let a = ctx.args.try_get("a")?.i64()?;
-                let b = ctx.args.try_get("b")?.i64()?;
-                Ok(Some(FieldValue::owned_any($struct_name {
-                    value: (a + b) as i32,
-                })))
-            })
-        })
-        .argument(InputValue::new("a", TypeRef::named_nn(TypeRef::INT)))
-        .argument(InputValue::new("b", TypeRef::named_nn(TypeRef::INT)))
-        .description("Returns the sum of a and b");
-        (add_field, schema)
+        define_add_field($name, $obj_name, $schema)
     }};
 }
 
