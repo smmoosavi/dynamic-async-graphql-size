@@ -2,407 +2,807 @@
 
 
 
+type Obj00 {
+	value: Int!
+}
+
+type Obj01 {
+	value: Int!
+}
+
+type Obj02 {
+	value: Int!
+}
+
+type Obj03 {
+	value: Int!
+}
+
+type Obj04 {
+	value: Int!
+}
+
+type Obj05 {
+	value: Int!
+}
+
+type Obj06 {
+	value: Int!
+}
+
+type Obj07 {
+	value: Int!
+}
+
+type Obj08 {
+	value: Int!
+}
+
+type Obj09 {
+	value: Int!
+}
+
+type Obj10 {
+	value: Int!
+}
+
+type Obj11 {
+	value: Int!
+}
+
+type Obj12 {
+	value: Int!
+}
+
+type Obj13 {
+	value: Int!
+}
+
+type Obj14 {
+	value: Int!
+}
+
+type Obj15 {
+	value: Int!
+}
+
+type Obj16 {
+	value: Int!
+}
+
+type Obj17 {
+	value: Int!
+}
+
+type Obj18 {
+	value: Int!
+}
+
+type Obj19 {
+	value: Int!
+}
+
+type Obj20 {
+	value: Int!
+}
+
+type Obj21 {
+	value: Int!
+}
+
+type Obj22 {
+	value: Int!
+}
+
+type Obj23 {
+	value: Int!
+}
+
+type Obj24 {
+	value: Int!
+}
+
+type Obj25 {
+	value: Int!
+}
+
+type Obj26 {
+	value: Int!
+}
+
+type Obj27 {
+	value: Int!
+}
+
+type Obj28 {
+	value: Int!
+}
+
+type Obj29 {
+	value: Int!
+}
+
+type Obj30 {
+	value: Int!
+}
+
+type Obj31 {
+	value: Int!
+}
+
+type Obj32 {
+	value: Int!
+}
+
+type Obj33 {
+	value: Int!
+}
+
+type Obj34 {
+	value: Int!
+}
+
+type Obj35 {
+	value: Int!
+}
+
+type Obj36 {
+	value: Int!
+}
+
+type Obj37 {
+	value: Int!
+}
+
+type Obj38 {
+	value: Int!
+}
+
+type Obj39 {
+	value: Int!
+}
+
+type Obj40 {
+	value: Int!
+}
+
+type Obj41 {
+	value: Int!
+}
+
+type Obj42 {
+	value: Int!
+}
+
+type Obj43 {
+	value: Int!
+}
+
+type Obj44 {
+	value: Int!
+}
+
+type Obj45 {
+	value: Int!
+}
+
+type Obj46 {
+	value: Int!
+}
+
+type Obj47 {
+	value: Int!
+}
+
+type Obj48 {
+	value: Int!
+}
+
+type Obj49 {
+	value: Int!
+}
+
+type Obj50 {
+	value: Int!
+}
+
+type Obj51 {
+	value: Int!
+}
+
+type Obj52 {
+	value: Int!
+}
+
+type Obj53 {
+	value: Int!
+}
+
+type Obj54 {
+	value: Int!
+}
+
+type Obj55 {
+	value: Int!
+}
+
+type Obj56 {
+	value: Int!
+}
+
+type Obj57 {
+	value: Int!
+}
+
+type Obj58 {
+	value: Int!
+}
+
+type Obj59 {
+	value: Int!
+}
+
+type Obj60 {
+	value: Int!
+}
+
+type Obj61 {
+	value: Int!
+}
+
+type Obj62 {
+	value: Int!
+}
+
+type Obj63 {
+	value: Int!
+}
+
+type Obj64 {
+	value: Int!
+}
+
+type Obj65 {
+	value: Int!
+}
+
+type Obj66 {
+	value: Int!
+}
+
+type Obj67 {
+	value: Int!
+}
+
+type Obj68 {
+	value: Int!
+}
+
+type Obj69 {
+	value: Int!
+}
+
+type Obj70 {
+	value: Int!
+}
+
+type Obj71 {
+	value: Int!
+}
+
+type Obj72 {
+	value: Int!
+}
+
+type Obj73 {
+	value: Int!
+}
+
+type Obj74 {
+	value: Int!
+}
+
+type Obj75 {
+	value: Int!
+}
+
+type Obj76 {
+	value: Int!
+}
+
+type Obj77 {
+	value: Int!
+}
+
+type Obj78 {
+	value: Int!
+}
+
+type Obj79 {
+	value: Int!
+}
+
+type Obj80 {
+	value: Int!
+}
+
+type Obj81 {
+	value: Int!
+}
+
+type Obj82 {
+	value: Int!
+}
+
+type Obj83 {
+	value: Int!
+}
+
+type Obj84 {
+	value: Int!
+}
+
+type Obj85 {
+	value: Int!
+}
+
+type Obj86 {
+	value: Int!
+}
+
+type Obj87 {
+	value: Int!
+}
+
+type Obj88 {
+	value: Int!
+}
+
+type Obj89 {
+	value: Int!
+}
+
+type Obj90 {
+	value: Int!
+}
+
+type Obj91 {
+	value: Int!
+}
+
+type Obj92 {
+	value: Int!
+}
+
+type Obj93 {
+	value: Int!
+}
+
+type Obj94 {
+	value: Int!
+}
+
+type Obj95 {
+	value: Int!
+}
+
+type Obj96 {
+	value: Int!
+}
+
+type Obj97 {
+	value: Int!
+}
+
+type Obj98 {
+	value: Int!
+}
+
+type Obj99 {
+	value: Int!
+}
+
 type Query {
 	"""
 	Returns the sum of a and b
 	"""
-	add00(a: Int!, b: Int!): Int!
+	add00(a: Int!, b: Int!): Obj00!
 	"""
 	Returns the sum of a and b
 	"""
-	add01(a: Int!, b: Int!): Int!
+	add01(a: Int!, b: Int!): Obj01!
 	"""
 	Returns the sum of a and b
 	"""
-	add02(a: Int!, b: Int!): Int!
+	add02(a: Int!, b: Int!): Obj02!
 	"""
 	Returns the sum of a and b
 	"""
-	add03(a: Int!, b: Int!): Int!
+	add03(a: Int!, b: Int!): Obj03!
 	"""
 	Returns the sum of a and b
 	"""
-	add04(a: Int!, b: Int!): Int!
+	add04(a: Int!, b: Int!): Obj04!
 	"""
 	Returns the sum of a and b
 	"""
-	add05(a: Int!, b: Int!): Int!
+	add05(a: Int!, b: Int!): Obj05!
 	"""
 	Returns the sum of a and b
 	"""
-	add06(a: Int!, b: Int!): Int!
+	add06(a: Int!, b: Int!): Obj06!
 	"""
 	Returns the sum of a and b
 	"""
-	add07(a: Int!, b: Int!): Int!
+	add07(a: Int!, b: Int!): Obj07!
 	"""
 	Returns the sum of a and b
 	"""
-	add08(a: Int!, b: Int!): Int!
+	add08(a: Int!, b: Int!): Obj08!
 	"""
 	Returns the sum of a and b
 	"""
-	add09(a: Int!, b: Int!): Int!
+	add09(a: Int!, b: Int!): Obj09!
 	"""
 	Returns the sum of a and b
 	"""
-	add10(a: Int!, b: Int!): Int!
+	add10(a: Int!, b: Int!): Obj10!
 	"""
 	Returns the sum of a and b
 	"""
-	add11(a: Int!, b: Int!): Int!
+	add11(a: Int!, b: Int!): Obj11!
 	"""
 	Returns the sum of a and b
 	"""
-	add12(a: Int!, b: Int!): Int!
+	add12(a: Int!, b: Int!): Obj12!
 	"""
 	Returns the sum of a and b
 	"""
-	add13(a: Int!, b: Int!): Int!
+	add13(a: Int!, b: Int!): Obj13!
 	"""
 	Returns the sum of a and b
 	"""
-	add14(a: Int!, b: Int!): Int!
+	add14(a: Int!, b: Int!): Obj14!
 	"""
 	Returns the sum of a and b
 	"""
-	add15(a: Int!, b: Int!): Int!
+	add15(a: Int!, b: Int!): Obj15!
 	"""
 	Returns the sum of a and b
 	"""
-	add16(a: Int!, b: Int!): Int!
+	add16(a: Int!, b: Int!): Obj16!
 	"""
 	Returns the sum of a and b
 	"""
-	add17(a: Int!, b: Int!): Int!
+	add17(a: Int!, b: Int!): Obj17!
 	"""
 	Returns the sum of a and b
 	"""
-	add18(a: Int!, b: Int!): Int!
+	add18(a: Int!, b: Int!): Obj18!
 	"""
 	Returns the sum of a and b
 	"""
-	add19(a: Int!, b: Int!): Int!
+	add19(a: Int!, b: Int!): Obj19!
 	"""
 	Returns the sum of a and b
 	"""
-	add20(a: Int!, b: Int!): Int!
+	add20(a: Int!, b: Int!): Obj20!
 	"""
 	Returns the sum of a and b
 	"""
-	add21(a: Int!, b: Int!): Int!
+	add21(a: Int!, b: Int!): Obj21!
 	"""
 	Returns the sum of a and b
 	"""
-	add22(a: Int!, b: Int!): Int!
+	add22(a: Int!, b: Int!): Obj22!
 	"""
 	Returns the sum of a and b
 	"""
-	add23(a: Int!, b: Int!): Int!
+	add23(a: Int!, b: Int!): Obj23!
 	"""
 	Returns the sum of a and b
 	"""
-	add24(a: Int!, b: Int!): Int!
+	add24(a: Int!, b: Int!): Obj24!
 	"""
 	Returns the sum of a and b
 	"""
-	add25(a: Int!, b: Int!): Int!
+	add25(a: Int!, b: Int!): Obj25!
 	"""
 	Returns the sum of a and b
 	"""
-	add26(a: Int!, b: Int!): Int!
+	add26(a: Int!, b: Int!): Obj26!
 	"""
 	Returns the sum of a and b
 	"""
-	add27(a: Int!, b: Int!): Int!
+	add27(a: Int!, b: Int!): Obj27!
 	"""
 	Returns the sum of a and b
 	"""
-	add28(a: Int!, b: Int!): Int!
+	add28(a: Int!, b: Int!): Obj28!
 	"""
 	Returns the sum of a and b
 	"""
-	add29(a: Int!, b: Int!): Int!
+	add29(a: Int!, b: Int!): Obj29!
 	"""
 	Returns the sum of a and b
 	"""
-	add30(a: Int!, b: Int!): Int!
+	add30(a: Int!, b: Int!): Obj30!
 	"""
 	Returns the sum of a and b
 	"""
-	add31(a: Int!, b: Int!): Int!
+	add31(a: Int!, b: Int!): Obj31!
 	"""
 	Returns the sum of a and b
 	"""
-	add32(a: Int!, b: Int!): Int!
+	add32(a: Int!, b: Int!): Obj32!
 	"""
 	Returns the sum of a and b
 	"""
-	add33(a: Int!, b: Int!): Int!
+	add33(a: Int!, b: Int!): Obj33!
 	"""
 	Returns the sum of a and b
 	"""
-	add34(a: Int!, b: Int!): Int!
+	add34(a: Int!, b: Int!): Obj34!
 	"""
 	Returns the sum of a and b
 	"""
-	add35(a: Int!, b: Int!): Int!
+	add35(a: Int!, b: Int!): Obj35!
 	"""
 	Returns the sum of a and b
 	"""
-	add36(a: Int!, b: Int!): Int!
+	add36(a: Int!, b: Int!): Obj36!
 	"""
 	Returns the sum of a and b
 	"""
-	add37(a: Int!, b: Int!): Int!
+	add37(a: Int!, b: Int!): Obj37!
 	"""
 	Returns the sum of a and b
 	"""
-	add38(a: Int!, b: Int!): Int!
+	add38(a: Int!, b: Int!): Obj38!
 	"""
 	Returns the sum of a and b
 	"""
-	add39(a: Int!, b: Int!): Int!
+	add39(a: Int!, b: Int!): Obj39!
 	"""
 	Returns the sum of a and b
 	"""
-	add40(a: Int!, b: Int!): Int!
+	add40(a: Int!, b: Int!): Obj40!
 	"""
 	Returns the sum of a and b
 	"""
-	add41(a: Int!, b: Int!): Int!
+	add41(a: Int!, b: Int!): Obj41!
 	"""
 	Returns the sum of a and b
 	"""
-	add42(a: Int!, b: Int!): Int!
+	add42(a: Int!, b: Int!): Obj42!
 	"""
 	Returns the sum of a and b
 	"""
-	add43(a: Int!, b: Int!): Int!
+	add43(a: Int!, b: Int!): Obj43!
 	"""
 	Returns the sum of a and b
 	"""
-	add44(a: Int!, b: Int!): Int!
+	add44(a: Int!, b: Int!): Obj44!
 	"""
 	Returns the sum of a and b
 	"""
-	add45(a: Int!, b: Int!): Int!
+	add45(a: Int!, b: Int!): Obj45!
 	"""
 	Returns the sum of a and b
 	"""
-	add46(a: Int!, b: Int!): Int!
+	add46(a: Int!, b: Int!): Obj46!
 	"""
 	Returns the sum of a and b
 	"""
-	add47(a: Int!, b: Int!): Int!
+	add47(a: Int!, b: Int!): Obj47!
 	"""
 	Returns the sum of a and b
 	"""
-	add48(a: Int!, b: Int!): Int!
+	add48(a: Int!, b: Int!): Obj48!
 	"""
 	Returns the sum of a and b
 	"""
-	add49(a: Int!, b: Int!): Int!
+	add49(a: Int!, b: Int!): Obj49!
 	"""
 	Returns the sum of a and b
 	"""
-	add50(a: Int!, b: Int!): Int!
+	add50(a: Int!, b: Int!): Obj50!
 	"""
 	Returns the sum of a and b
 	"""
-	add51(a: Int!, b: Int!): Int!
+	add51(a: Int!, b: Int!): Obj51!
 	"""
 	Returns the sum of a and b
 	"""
-	add52(a: Int!, b: Int!): Int!
+	add52(a: Int!, b: Int!): Obj52!
 	"""
 	Returns the sum of a and b
 	"""
-	add53(a: Int!, b: Int!): Int!
+	add53(a: Int!, b: Int!): Obj53!
 	"""
 	Returns the sum of a and b
 	"""
-	add54(a: Int!, b: Int!): Int!
+	add54(a: Int!, b: Int!): Obj54!
 	"""
 	Returns the sum of a and b
 	"""
-	add55(a: Int!, b: Int!): Int!
+	add55(a: Int!, b: Int!): Obj55!
 	"""
 	Returns the sum of a and b
 	"""
-	add56(a: Int!, b: Int!): Int!
+	add56(a: Int!, b: Int!): Obj56!
 	"""
 	Returns the sum of a and b
 	"""
-	add57(a: Int!, b: Int!): Int!
+	add57(a: Int!, b: Int!): Obj57!
 	"""
 	Returns the sum of a and b
 	"""
-	add58(a: Int!, b: Int!): Int!
+	add58(a: Int!, b: Int!): Obj58!
 	"""
 	Returns the sum of a and b
 	"""
-	add59(a: Int!, b: Int!): Int!
+	add59(a: Int!, b: Int!): Obj59!
 	"""
 	Returns the sum of a and b
 	"""
-	add60(a: Int!, b: Int!): Int!
+	add60(a: Int!, b: Int!): Obj60!
 	"""
 	Returns the sum of a and b
 	"""
-	add61(a: Int!, b: Int!): Int!
+	add61(a: Int!, b: Int!): Obj61!
 	"""
 	Returns the sum of a and b
 	"""
-	add62(a: Int!, b: Int!): Int!
+	add62(a: Int!, b: Int!): Obj62!
 	"""
 	Returns the sum of a and b
 	"""
-	add63(a: Int!, b: Int!): Int!
+	add63(a: Int!, b: Int!): Obj63!
 	"""
 	Returns the sum of a and b
 	"""
-	add64(a: Int!, b: Int!): Int!
+	add64(a: Int!, b: Int!): Obj64!
 	"""
 	Returns the sum of a and b
 	"""
-	add65(a: Int!, b: Int!): Int!
+	add65(a: Int!, b: Int!): Obj65!
 	"""
 	Returns the sum of a and b
 	"""
-	add66(a: Int!, b: Int!): Int!
+	add66(a: Int!, b: Int!): Obj66!
 	"""
 	Returns the sum of a and b
 	"""
-	add67(a: Int!, b: Int!): Int!
+	add67(a: Int!, b: Int!): Obj67!
 	"""
 	Returns the sum of a and b
 	"""
-	add68(a: Int!, b: Int!): Int!
+	add68(a: Int!, b: Int!): Obj68!
 	"""
 	Returns the sum of a and b
 	"""
-	add69(a: Int!, b: Int!): Int!
+	add69(a: Int!, b: Int!): Obj69!
 	"""
 	Returns the sum of a and b
 	"""
-	add70(a: Int!, b: Int!): Int!
+	add70(a: Int!, b: Int!): Obj70!
 	"""
 	Returns the sum of a and b
 	"""
-	add71(a: Int!, b: Int!): Int!
+	add71(a: Int!, b: Int!): Obj71!
 	"""
 	Returns the sum of a and b
 	"""
-	add72(a: Int!, b: Int!): Int!
+	add72(a: Int!, b: Int!): Obj72!
 	"""
 	Returns the sum of a and b
 	"""
-	add73(a: Int!, b: Int!): Int!
+	add73(a: Int!, b: Int!): Obj73!
 	"""
 	Returns the sum of a and b
 	"""
-	add74(a: Int!, b: Int!): Int!
+	add74(a: Int!, b: Int!): Obj74!
 	"""
 	Returns the sum of a and b
 	"""
-	add75(a: Int!, b: Int!): Int!
+	add75(a: Int!, b: Int!): Obj75!
 	"""
 	Returns the sum of a and b
 	"""
-	add76(a: Int!, b: Int!): Int!
+	add76(a: Int!, b: Int!): Obj76!
 	"""
 	Returns the sum of a and b
 	"""
-	add77(a: Int!, b: Int!): Int!
+	add77(a: Int!, b: Int!): Obj77!
 	"""
 	Returns the sum of a and b
 	"""
-	add78(a: Int!, b: Int!): Int!
+	add78(a: Int!, b: Int!): Obj78!
 	"""
 	Returns the sum of a and b
 	"""
-	add79(a: Int!, b: Int!): Int!
+	add79(a: Int!, b: Int!): Obj79!
 	"""
 	Returns the sum of a and b
 	"""
-	add80(a: Int!, b: Int!): Int!
+	add80(a: Int!, b: Int!): Obj80!
 	"""
 	Returns the sum of a and b
 	"""
-	add81(a: Int!, b: Int!): Int!
+	add81(a: Int!, b: Int!): Obj81!
 	"""
 	Returns the sum of a and b
 	"""
-	add82(a: Int!, b: Int!): Int!
+	add82(a: Int!, b: Int!): Obj82!
 	"""
 	Returns the sum of a and b
 	"""
-	add83(a: Int!, b: Int!): Int!
+	add83(a: Int!, b: Int!): Obj83!
 	"""
 	Returns the sum of a and b
 	"""
-	add84(a: Int!, b: Int!): Int!
+	add84(a: Int!, b: Int!): Obj84!
 	"""
 	Returns the sum of a and b
 	"""
-	add85(a: Int!, b: Int!): Int!
+	add85(a: Int!, b: Int!): Obj85!
 	"""
 	Returns the sum of a and b
 	"""
-	add86(a: Int!, b: Int!): Int!
+	add86(a: Int!, b: Int!): Obj86!
 	"""
 	Returns the sum of a and b
 	"""
-	add87(a: Int!, b: Int!): Int!
+	add87(a: Int!, b: Int!): Obj87!
 	"""
 	Returns the sum of a and b
 	"""
-	add88(a: Int!, b: Int!): Int!
+	add88(a: Int!, b: Int!): Obj88!
 	"""
 	Returns the sum of a and b
 	"""
-	add89(a: Int!, b: Int!): Int!
+	add89(a: Int!, b: Int!): Obj89!
 	"""
 	Returns the sum of a and b
 	"""
-	add90(a: Int!, b: Int!): Int!
+	add90(a: Int!, b: Int!): Obj90!
 	"""
 	Returns the sum of a and b
 	"""
-	add91(a: Int!, b: Int!): Int!
+	add91(a: Int!, b: Int!): Obj91!
 	"""
 	Returns the sum of a and b
 	"""
-	add92(a: Int!, b: Int!): Int!
+	add92(a: Int!, b: Int!): Obj92!
 	"""
 	Returns the sum of a and b
 	"""
-	add93(a: Int!, b: Int!): Int!
+	add93(a: Int!, b: Int!): Obj93!
 	"""
 	Returns the sum of a and b
 	"""
-	add94(a: Int!, b: Int!): Int!
+	add94(a: Int!, b: Int!): Obj94!
 	"""
 	Returns the sum of a and b
 	"""
-	add95(a: Int!, b: Int!): Int!
+	add95(a: Int!, b: Int!): Obj95!
 	"""
 	Returns the sum of a and b
 	"""
-	add96(a: Int!, b: Int!): Int!
+	add96(a: Int!, b: Int!): Obj96!
 	"""
 	Returns the sum of a and b
 	"""
-	add97(a: Int!, b: Int!): Int!
+	add97(a: Int!, b: Int!): Obj97!
 	"""
 	Returns the sum of a and b
 	"""
-	add98(a: Int!, b: Int!): Int!
+	add98(a: Int!, b: Int!): Obj98!
 	"""
 	Returns the sum of a and b
 	"""
-	add99(a: Int!, b: Int!): Int!
+	add99(a: Int!, b: Int!): Obj99!
 }
 
 
