@@ -6,7 +6,403 @@ type Query {
 	"""
 	Returns the sum of a and b
 	"""
-	add(a: Int!, b: Int!): Int!
+	add00(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add01(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add02(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add03(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add04(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add05(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add06(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add07(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add08(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add09(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add10(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add11(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add12(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add13(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add14(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add15(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add16(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add17(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add18(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add19(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add20(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add21(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add22(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add23(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add24(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add25(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add26(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add27(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add28(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add29(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add30(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add31(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add32(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add33(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add34(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add35(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add36(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add37(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add38(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add39(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add40(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add41(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add42(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add43(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add44(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add45(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add46(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add47(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add48(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add49(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add50(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add51(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add52(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add53(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add54(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add55(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add56(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add57(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add58(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add59(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add60(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add61(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add62(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add63(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add64(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add65(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add66(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add67(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add68(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add69(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add70(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add71(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add72(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add73(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add74(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add75(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add76(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add77(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add78(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add79(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add80(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add81(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add82(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add83(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add84(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add85(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add86(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add87(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add88(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add89(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add90(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add91(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add92(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add93(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add94(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add95(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add96(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add97(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add98(a: Int!, b: Int!): Int!
+	"""
+	Returns the sum of a and b
+	"""
+	add99(a: Int!, b: Int!): Int!
 }
 
 
